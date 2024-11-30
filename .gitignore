@@ -1,0 +1,28 @@
+# Global ignores (applies to all parts of the project)
+*.log
+.DS_Store
+Thumbs.db
+*.cache
+tmp/
+
+# Backend ignores
+/backend/__pycache__/
+backend/venv/
+backend/env/
+backend/*.pyc
+backend/*.pyo
+backend/.env
+backend/artifacts/
+backend/*.pkl
+backend/*.log
+
+# Frontend ignores
+/frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.next/  # If using Next.js
+frontend/dist/    # If using Webpack
+frontend/yarn.lock  # If not using Yarn
+frontend/.parcel-cache/  # If using Parcel bundler
+
+# IDE-speci
